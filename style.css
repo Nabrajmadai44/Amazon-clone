@@ -55,7 +55,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
-    width:200px;
+    width: 900px;
     height: 40px;
     border-radius: 4px;
 }
@@ -85,9 +85,10 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
- .nav-search :hover {
+
+.nav-search :hover {
     border: 2px solid orange;
- }
+}
 
 /* box4 */
 span {
@@ -110,4 +111,56 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #222F3d;
+    display: flex;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops {
+    width: 80%;
+    font-size: 0.85rem;   
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url("Images/herosection1.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+    font-size: 0.85;
 }
